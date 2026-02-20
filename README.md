@@ -3,7 +3,8 @@
 这是一个为napcat设计的插件，主要用于你的chmlfrp服务器的检测，还可以检测你的frp隧道是否在线。
 
 ## 使用方法
-需要在**.env.template**文件中配置你的chmlfrp的token，然后重命名为**.env**文件。
+需要在`.env.template`文件中配置你的chmlfrp的token，然后重命名为`.env`文件。
+
 下载插件后编译，dist目录是编译的产物，把它放到napcat的plugins目录下即可。
 ```bash
 pnpm i && pnpm build
